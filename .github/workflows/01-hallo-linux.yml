@@ -21,3 +21,12 @@ jobs:
 
       - name: Welches System läuft hier?
         run: uname -a
+        
+      - name: Wie heiße ich?
+        run: echo "Mein Name ist Monsieur Kofferfell"
+
+      - name: Aktuelle Datum
+        run: date +%Y-%m-%d
+
+      - name: Kernel-Version
+        run: uname -r
